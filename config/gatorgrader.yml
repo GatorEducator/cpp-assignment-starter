@@ -7,24 +7,31 @@ indent: 4
 src:
   samples/bad1.out:
     --exists
+    --fragment "*** Error" --count 1
     --fragment "*** syntax error" --count 1
   samples/bad2.out:
     --exists
+    --fragment "*** Error" --count 1
     --fragment "*** syntax error" --count 1
   samples/bad3.out:
     --exists
+    --fragment "*** Error" --count 1
     --fragment "*** syntax error" --count 1
   samples/bad4.out:
     --exists
+    --fragment "*** Error" --count 1
     --fragment "*** syntax error" --count 1
   samples/bad5.out:
     --exists
+    --fragment "*** Error" --count 1
     --fragment "*** syntax error" --count 1
   samples/bad6.out:
     --exists
+    --fragment "*** Error" --count 1
     --fragment "*** syntax error" --count 1
   samples/bad7.out:
     --exists
+    --fragment "*** Error" --count 1
     --fragment "*** syntax error" --count 1
 writing/reflection.md:
     mdl
