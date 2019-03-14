@@ -32,18 +32,6 @@ instead appear in the commit logs.
 
 <!-- UPDATE: introduce and describe the assignment here -->
 
-The programmer is also responsible for writing a reflection, stored in the file
-`writing/reflection.md`, that responds to the questions in the assignment sheet
-and explains the challenges that you faced and the solutions you developed.
-Please note that this is a Markdown file that must adhere to the standards
-described in the [Markdown Syntax
-Guide](https://guides.github.com/features/mastering-markdown/). Remember, you
-can preview the contents of a committed Markdown file by clicking on the name of
-the file in your GitHub repository. Finally, don't forget that your
-`writing/reflection.md` file should adhere to the Markdown standards established
-by the [Markdown linting tool](https://github.com/markdownlint/markdownlint) and
-the writing standards set by the [Proselint tool](http://proselint.com/).
-
 When you use the `git commit` command to transfer your source code to your
 GitHub repository, [Travis CI](https://travis-ci.com/) will initialize a build
 of your assignment, checking to see if it meets all of the requirements. If both

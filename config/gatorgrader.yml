@@ -1,0 +1,33 @@
+---
+name: cpp-sample-lab
+break: true
+fastfail: false
+indent: 4
+---
+src:
+  samples/bad1.out:
+    --exists
+    --fragment "*** syntax error" --count 1
+  samples/bad2.out:
+    --exists
+    --fragment "*** syntax error" --count 1
+  samples/bad3.out:
+    --exists
+    --fragment "*** syntax error" --count 1
+  samples/bad4.out:
+    --exists
+    --fragment "*** syntax error" --count 1
+  samples/bad5.out:
+    --exists
+    --fragment "*** syntax error" --count 1
+  samples/bad6.out:
+    --exists
+    --fragment "*** syntax error" --count 1
+  samples/bad7.out:
+    --exists
+    --fragment "*** syntax error" --count 1
+writing/reflection.md:
+    mdl
+    --paragraphs 2
+    --words 6
+--commits 18
