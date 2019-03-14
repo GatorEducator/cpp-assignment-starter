@@ -33,6 +33,10 @@ src:
     --exists
     --fragment "*** Error" --count 1
     --fragment "*** syntax error" --count 1
+
+    scanner.l:
+      --exists
+      --fragment "GetLineNumbered" --count 1
 writing/reflection.md:
     mdl
     --paragraphs 2
