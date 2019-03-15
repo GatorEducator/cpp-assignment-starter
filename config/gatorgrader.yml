@@ -47,8 +47,7 @@ src:
     --fragment "FnDecl:" --count 1
   samples/incrdecr.out:
     --exists
-    --fragment "Operator:\ --" --count 1
-    --fragment "Operator:\ ++" --count 1
+    --fragment "Operator" --count 2
   samples/inheritence.out:
     --exists
     --fragment "(extends) NamedType:" --count 1
