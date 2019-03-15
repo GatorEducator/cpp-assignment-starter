@@ -62,7 +62,7 @@ src:
     --fragment "PrintStmt:" --count 1
   samples/switch.out:
     --exists
-    --fradment "SwitchStmt:" --count 1
+    --fragment "SwitchStmt:" --count 1
 
   scanner.l:
     --exists

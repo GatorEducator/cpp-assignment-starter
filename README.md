@@ -18,8 +18,6 @@
 - Contact Gregory M. Kapfhammer by email or Slack
 - Raise an issue in the GitHub repository
 
-<!-- UPDATE: describe what this repository contains -->
-
 Designed for use with [GitHub Classroom](https://classroom.github.com/), this
 repository contains an example assignment for use with GatorGrader and
 GatorGradle. Since the Travis builds for this repository will initially fail
@@ -30,7 +28,18 @@ instead appear in the commit logs.
 
 ## Introduction
 
-<!-- UPDATE: introduce and describe the assignment here -->
+For this lab assignment you will extend your Decaf compiler to handle the syntax
+analysis phase, the second task of the front-end, by using bison to create a
+parser. The parser will read Decaf source programs and construct a parse tree.
+If no syntax errors are encountered, your code will print the completed parse
+tree as flat text. At this stage, you are not responsible for verifying meaning,
+just structure.
+
+The goal of this lab is to familiarize you with the tools and give you
+experience in solving typical problems one encounters when using them to
+generate a parser. By conducting experiments using a compiler known to you, and
+by conducting a comparitive analysis of those results, you will learn how to
+handle the errors in your own compiler.
 
 When you use the `git commit` command to transfer your source code to your
 GitHub repository, [Travis CI](https://travis-ci.com/) will initialize a build
@@ -56,14 +65,14 @@ following GitHub guides: [Mastering
 Markdown](https://guides.github.com/features/mastering-markdown/), [Hello
 World](https://guides.github.com/activities/hello-world/), and [Documenting Your
 Projects on GitHub](https://guides.github.com/features/wikis/). Each of these
-guides will help you to understand how to use both [GitHub](http://github.com) and
-[GitHub Classroom](https://classroom.github.com/).
+guides will help you to understand how to use both [GitHub](http://github.com)
+and [GitHub Classroom](https://classroom.github.com/).
 
-<!-- UPDATE: specify reading assignments -->
+<!-- UPDATE: specify reading assignments if desired
 
 To do well on this assignment, you should also review Chapter XX in your course
 textbook. Please see the course instructor or one of the teaching assistants or
-tutors if you have questions about any of these reading assignments.
+tutors if you have questions about any of these reading assignments.-->
 
 ## Commands
 
@@ -78,8 +87,8 @@ and writing are passing all of the automated checks. However, if the last line
 of the output indicates that there are mistakes, then you will need to
 understand what they are and then try to fix them.
 
-You can also complete several other important Java programming tasks by using the
-`gradle` tool. For instance, you can compile (i.e., create bytecode from the
+You can also complete several other important Java programming tasks by using
+the `gradle` tool. For instance, you can compile (i.e., create bytecode from the
 program's source code if it is a correct program) the program using the command
 `gradle build`. There are also additional commands that you can type:
 
@@ -97,10 +106,11 @@ command in the terminal and study the output.
 
 ## Output
 
+<!-- UPDATE: add sample output and update file name-->
+
 Typing the command `gradle run` in the terminal window produces the following
 output for the instructor's version of `samplelab.SampleLabMain`.
 
-<!-- UPDATE: add sample output -->
 
 Some sample output should be included here.
 
@@ -119,10 +129,9 @@ If the course instructor updates the provided material for this assignment and
 you would like to receive these updates, then you can type this command in the
 main directory for this assignment:
 
-<!-- UPDATE: add starter repository link -->
 
 ```
-git remote add download <starter repository git uri>
+git remote add download git@github.com:GatorEducator/cpp-assignment-starter.git
 ```
 
 You should only need to type this command once; typing the command additional
@@ -155,10 +164,10 @@ access the private repositories that you created on GitHub.
 
 ## Problems
 
-<!-- UPDATE: update links to your starter repository and lab sheets repository -->
+<!-- UPDATE: update link to lab sheets repository -->
 
 If you have found a problem with this assignment's provided source code, then
-you can go to the [GatorGrader Sample Assignment](https://github.com/gatored/gatorgrader-samplelab)
+you can go to the [GatorGrader Sample Assignment](https://github.com/GatorEducator/cpp-assignment-starter)
 repository and create an issue by clicking the "Issues" tab and then clicking
 the green "New Issue" button. If you have found a problem with the [GatorGrader
 tool](https://github.com/gatored/gatorgrader) and the way that it checks your
