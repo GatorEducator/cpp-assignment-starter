@@ -33,10 +33,41 @@ src:
     --exists
     --fragment "*** Error" --count 1
     --fragment "*** syntax error" --count 1
+  samples/class.out:
+    --exists
+    --fragment "ClassDecl:" --count 1
+  samples/control.out:
+    --exists
+    --fragment "IfStmt:" --count 1
+  samples/expressions.out:
+    --exists
+    --fragment "LogicalExpr:" --count 1
+  samples/functions.out:
+    --exists
+    --fragment "FnDecl:" --count 1
+  samples/incrdecr.out:
+    --exists
+    --fragment "Operator:\ --" --count 1
+    --fragment "Operator:\ ++" --count 1
+  samples/inheritence.out:
+    --exists
+    --fragment "(extends) NamedType:" --count 1
+  samples/interface.out:
+    --exists
+    --fragment "(implements) NamedType:" --count 1
+  samples/matrix.out:
+    --exists
+    --fragment "ArrayType:" --count 1
+  samples/simple.out:
+    --exists
+    --fragment "PrintStmt:" --count 1
+  samples/switch.out:
+    --exists
+    --fradment "SwitchStmt:" --count 1
 
-    scanner.l:
-      --exists
-      --fragment "GetLineNumbered" --count 1
+  scanner.l:
+    --exists
+    --fragment "GetLineNumbered" --count 1
 writing/reflection.md:
     mdl
     --paragraphs 2
