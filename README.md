@@ -160,7 +160,10 @@ access the private repositories that you created on GitHub.
 
 ## Requirements
 
-<!-- UPDATE: Built-in reqs for C/CPP assignment -->
+Submit your entire parser using your git repository for this course. Be sure to
+include your Reflection file, which is your chance to explain your design
+decisions and why you believe your program to be correct and robust, as well as
+describe what to expect from your submission and its error handling.
 
 ## Problems
 
